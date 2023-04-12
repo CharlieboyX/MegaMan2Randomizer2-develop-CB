@@ -306,6 +306,11 @@
 		<Value>A1</Value>
 		<Text>`</Text>
 	</CreditText>
+	<CreditText>
+		<Enabled>true</Enabled>
+		<Value>61</Value>
+		<Text>`</Text>
+	</CreditText>
     <CreditText>
         <Enabled>true</Enabled>
         <Value>8A</Value>

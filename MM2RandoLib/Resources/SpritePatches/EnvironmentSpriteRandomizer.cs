@@ -92,6 +92,7 @@ namespace MM2Randomizer.Resources.SpritePatches
             Properties.EnvironmentSpriteResources.StageTile_BubbleMan_Waterfall_CBv2,
             Properties.EnvironmentSpriteResources.StageTile_BubbleMan_Waterfall_CoinfallV1,
             Properties.EnvironmentSpriteResources.StageTile_BubbleMan_Waterfall_CoinfallV2,
+            Properties.EnvironmentSpriteResources.StageTile_BubbleMan_Waterfall_FinalFantasy,
             Properties.EnvironmentSpriteResources.StageTile_BubbleMan_Waterfall_None,
             Properties.EnvironmentSpriteResources.StageTile_BubbleMan_Waterfall_QBlock,
             Properties.EnvironmentSpriteResources.StageTile_BubbleMan_Waterfall_Rain,
@@ -136,6 +137,7 @@ namespace MM2Randomizer.Resources.SpritePatches
             null,
             Properties.EnvironmentSpriteResources.StageTile_FlashMan_Background_DDBrick,
             Properties.EnvironmentSpriteResources.StageTile_FlashMan_Background_FinalMix,
+            Properties.EnvironmentSpriteResources.StageTile_FlashMan_Background_Guard,
         };
 
         private static readonly List<Byte[]?> ENVIRONMENT_SPRITE_LIST_STAGE_TILE_FLASH_MAN_BLOCK = new List<Byte[]?>()
@@ -172,6 +174,7 @@ namespace MM2Randomizer.Resources.SpritePatches
         private static readonly List<Byte[]?> ENVIRONMENT_SPRITE_LIST_STAGE_TILE_METAL_MAN_BACKGROUND = new List<Byte[]?>()
         {
             null,
+            Properties.EnvironmentSpriteResources.StageTile_MetalMan_Background_CutmansBadScissorsDay,
             Properties.EnvironmentSpriteResources.StageTile_MetalMan_Background_None,
         };
 
@@ -187,6 +190,7 @@ namespace MM2Randomizer.Resources.SpritePatches
             Properties.EnvironmentSpriteResources.StageTile_MetalMan_Conveyor_CB,
             Properties.EnvironmentSpriteResources.StageTile_MetalMan_Conveyor_CB2,
             Properties.EnvironmentSpriteResources.StageTile_MetalMan_Conveyor_CB3,
+            Properties.EnvironmentSpriteResources.StageTile_MetalMan_Conveyor_CutmansBadScissorsDay,
         };
 
         private static readonly List<Byte[]?> ENVIRONMENT_SPRITE_LIST_STAGE_TILE_QUICK_MAN_BACKGROUND = new List<Byte[]?>()
@@ -216,12 +220,14 @@ namespace MM2Randomizer.Resources.SpritePatches
         private static readonly List<Byte[]?> ENVIRONMENT_SPRITE_LIST_STAGE_TILE_WOOD_MAN_CAVE_GROUND = new List<Byte[]?>()
         {
             null,
+            Properties.EnvironmentSpriteResources.StageTile_WoodMan_CaveGround_FinalFantasy,
             Properties.EnvironmentSpriteResources.StageTile_WoodMan_CaveGround_Sand,
         };
 
         private static readonly List<Byte[]?> ENVIRONMENT_SPRITE_LIST_STAGE_TILE_WOOD_MAN_GRASS = new List<Byte[]?>()
         {
             null,
+            Properties.EnvironmentSpriteResources.StageTile_WoodMan_Grass_FinalFantasy,
             Properties.EnvironmentSpriteResources.StageTile_WoodMan_Grass_SuperMarioBros2V1,
             Properties.EnvironmentSpriteResources.StageTile_WoodMan_Grass_SuperMarioBros2V1,
             Properties.EnvironmentSpriteResources.StageTile_WoodMan_Grass_SuperMarioBros3V1,
