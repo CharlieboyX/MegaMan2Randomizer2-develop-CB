@@ -160,6 +160,9 @@
   <data name="StageSelectScreen_Ultra" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SpritePatches\MenusAndTransitionScreens\StageSelectScreen\StageSelectScreen_Ultra.ips;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="TitleScreen_FinalFantasy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpritePatches\MenusAndTransitionScreens\TitleScreen\TitleScreen_FinalFantasy.ips;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="WeaponGetScreen_Claw" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SpritePatches\MenusAndTransitionScreens\WeaponGetScreen\WeaponGetScreen_Claw.ips;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>

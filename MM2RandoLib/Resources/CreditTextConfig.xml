@@ -188,17 +188,17 @@
     </CreditText>
     <CreditText>
 	    <Enabled>true</Enabled>
-	    <Value>FA</Value>
+	    <Value>66</Value>
 	    <Text>PRODIGY</Text>
     </CreditText>
     <CreditText>
 	    <Enabled>true</Enabled>
-	    <Value>33</Value>
+	    <Value>37</Value>
 	    <Text>LVCREED</Text>
     </CreditText>
     <CreditText>
 	    <Enabled>true</Enabled>
-	    <Value>7A</Value>
+	    <Value>64</Value>
 	    <Text>MEGAKYLE83</Text>
     </CreditText>
     <CreditText>
@@ -234,11 +234,11 @@
     <CreditText>
 	    <Enabled>true</Enabled>
 	    <Value>23</Value>
-	    <Text>MM2R TOURNAMENT COMMUNITY</Text>
+	    <Text>MM2R COMMUNITY</Text>
     </CreditText>
     <CreditText>
 	    <Enabled>true</Enabled>
-	    <Value>1B</Value>
+	    <Value>52</Value>
 	    <Text>SPEEDGAMING</Text>
     </CreditText>
     <CreditText>
@@ -248,13 +248,13 @@
     </CreditText>
     <CreditText>
 	    <Enabled>true</Enabled>
-	    <Value>DD</Value>
+	    <Value>51</Value>
 	    <Text>NO RESET SPEEDRUNS</Text>
     </CreditText>
     <CreditText>
 	    <Enabled>true</Enabled>
-	    <Value>D1</Value>
-	    <Text>FINAL FANATASY RANDOMIZER COMMUNITY</Text>
+	    <Value>59</Value>
+	    <Text>FFR COMMUNITY</Text>
     </CreditText>
     <CreditText>
         <Enabled>true</Enabled>
@@ -263,43 +263,43 @@
     </CreditText>
     <CreditText>
 	    <Enabled>true</Enabled>
-	    <Value>69</Value>
+	    <Value>41</Value>
 	    <Text>TOURNAMENT WINNERS</Text>
     </CreditText>
     <CreditText>
 	    <Enabled>true</Enabled>
-	    <Value>18</Value>
+	    <Value>5E</Value>
 	    <Text>2018 - PRODIGY</Text>
     </CreditText>
     <CreditText>
 	    <Enabled>true</Enabled>
-	    <Value>19</Value>
-	    <Text>2019 - METALOW</Text>
+	    <Value>5F</Value>
+	    <Text>2019 METALOW</Text>
     </CreditText>
     <CreditText>
 	    <Enabled>true</Enabled>
-	    <Value>20</Value>
-	    <Text>2020 - PRODIGY</Text>
-    </CreditText>
-	<CreditText>
-		<Enabled>true</Enabled>
-		<Value>2M</Value>
-		<Text>MINI - CASUALTOM82</Text>
-	</CreditText>
-    <CreditText>
-	    <Enabled>true</Enabled>
-	    <Value>21</Value>
-	    <Text>2021 - CHARLIEBOY</Text>
+	    <Value>60</Value>
+	    <Text>2020 PRODIGY</Text>
     </CreditText>
 	<CreditText>
 		<Enabled>true</Enabled>
-		<Value>NQ</Value>
-		<Text>2021NQ - ARISPICI</Text>
+		<Value>62</Value>
+		<Text>MINI CASUALTOM82</Text>
 	</CreditText>
     <CreditText>
 	    <Enabled>true</Enabled>
-	    <Value>22</Value>
-	    <Text>2022 - PRODIGY</Text>
+	    <Value>63</Value>
+	    <Text>2021 CHARLIEBOY</Text>
+    </CreditText>
+	<CreditText>
+		<Enabled>true</Enabled>
+		<Value>4F</Value>
+		<Text>2021NQ ARISPICI</Text>
+	</CreditText>
+    <CreditText>
+	    <Enabled>true</Enabled>
+	    <Value>4D</Value>
+	    <Text>2022 PRODIGY</Text>
 	</CreditText>
 	<CreditText>
 		<Enabled>true</Enabled>
