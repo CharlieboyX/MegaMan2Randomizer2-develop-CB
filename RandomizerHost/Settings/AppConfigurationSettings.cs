@@ -132,6 +132,41 @@ namespace RandomizerHost.Settings
             }
         }
 
+               [UserScopedSetting]
+        [DefaultSettingValue("True")]
+        public Boolean DisableWaterfall
+        {
+            get
+            {
+                return this.GetValueOrDefault(
+                    AppConfigurationSettings.DISABLE_WATERFALL_SETTING_NAME,
+                    AppConfigurationSettings.DISABLE_WATERFALL_DEFAULT_VALUE);
+            }
+
+            set
+            {
+                this[AppConfigurationSettings.DISABLE_WATERFALL_SETTING_NAME] = value;
+            }
+        }
+
+
+        [UserScopedSetting]
+        [DefaultSettingValue("False")]
+        public Boolean RandomlyChooseSetting_DisableWaterfall
+        {
+            get
+            {
+                return this.GetValueOrDefault(
+                    AppConfigurationSettings.RANDOMLY_CHOOSE_SETTING_DISABLE_WATERFALL_SETTING_NAME,
+                    AppConfigurationSettings.RANDOMLY_CHOOSE_SETTING_DISABLE_WATERFALL_DEFAULT_VALUE);
+            }
+
+            set
+            {
+                this[AppConfigurationSettings.RANDOMLY_CHOOSE_SETTING_DISABLE_WATERFALL_SETTING_NAME] = value;
+            }
+        }
+
 
         [UserScopedSetting]
         [DefaultSettingValue("True")]
@@ -1478,6 +1513,8 @@ namespace RandomizerHost.Settings
             // Quality of life options
             settings.QualityOfLifeOption.DisableDelayScrolling.Randomize = this.RandomlyChooseSetting_DisableDelayScrolling;
             settings.QualityOfLifeOption.DisableDelayScrolling.Value = (BooleanOption)Convert.ToInt32(this.DisableDelayScrolling);
+            settings.QualityOfLifeOption.DisableDelayScrolling.Randomize = this.RandomlyChooseSetting_DisableWaterfall;
+            settings.QualityOfLifeOption.DisableDelayScrolling.Value = (BooleanOption)Convert.ToInt32(this.DisableWaterfall);
             settings.QualityOfLifeOption.DisableFlashingEffects.Randomize = this.RandomlyChooseSetting_DisableFlashingEffects;
             settings.QualityOfLifeOption.DisableFlashingEffects.Value = (BooleanOption)Convert.ToInt32(this.DisableFlashingEffects);
             settings.QualityOfLifeOption.EnableUnderwaterLagReduction.Randomize = this.RandomlyChooseSetting_EnableUnderwaterLagReduction;
@@ -1710,6 +1747,13 @@ namespace RandomizerHost.Settings
 
         private const String RANDOMLY_CHOOSE_SETTING_DISABLE_DELAY_SCROLLING_SETTING_NAME = @"RandomlyChooseSetting_DisableDelayScrolling";
         private const Boolean RANDOMLY_CHOOSE_SETTING_DISABLE_DELAY_SCROLLING_DEFAULT_VALUE = false;
+
+        // Disable Waterfall
+        private const String DISABLE_WATERFALL_SETTING_NAME = @"DisableWaterfall";
+        private const Boolean DISABLE_WATERFALL_DEFAULT_VALUE = true;
+
+        private const String RANDOMLY_CHOOSE_SETTING_DISABLE_WATERFALL_SETTING_NAME = @"RandomlyChooseSetting_DisableWaterfall";
+        private const Boolean RANDOMLY_CHOOSE_SETTING_DISABLE_WATERFALL_DEFAULT_VALUE = false;
 
         // Disable Flashing Effects
         private const String DISABLE_FLASHING_EFFECTS_SETTING_NAME = @"DisableFlashingEffects";

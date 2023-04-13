@@ -968,6 +968,14 @@ namespace MM2Randomizer.Utilities
             p.Add((Int32)ESubroutineAddress.ChangeBankBNE + 1, Opcode6502.NOP, "The branch instruction is 2 bytes");
         }
 
+        /// <summary>
+        /// This disables the waterfall by using StageTile_BubbleMan_Waterfall_None.ips patch.
+        /// </summary>
+        /// <param name="p"></param>
+        public static void DisableWaterfall(Patch p, String tempFileName, BooleanOption waterfall)
+        {
+            p.ApplyIPSPatch(tempFileName, Properties.EnvironmentSpriteResources.StageTile_BubbleMan_Waterfall_None);
+        }
 
         /// <summary>
         /// This method will add a new subroutine to the ROM which triggers

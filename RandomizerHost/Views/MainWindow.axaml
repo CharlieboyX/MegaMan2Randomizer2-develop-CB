@@ -237,9 +237,10 @@
                 Name="CheckBox_CreateLogFile"
                 IsChecked="{Binding AppConfigurationSettings.CreateLogFile}"
             >
-                Create Log File
+                Create Log File 
             </CheckBox>
-        </StackPanel>
+
+		</StackPanel>
 
         <!-- Export and Import Buttons -->
         <StackPanel
@@ -944,6 +945,27 @@
                             Content="Disable Delay Scrolling"
                             IsEnabled="{Binding !#ToggleSwitch_DisableDelayScrolling.IsChecked}"
                             IsChecked="{Binding Path=AppConfigurationSettings.DisableDelayScrolling}"
+                        />
+                    </StackPanel>
+					<StackPanel
+                        Orientation="Horizontal"
+                    >
+                        <!-- Friendly emoji header -->
+                        <Label FontSize="18">🎲</Label>
+
+                        <!-- Toggle to randomize the option -->
+                        <ToggleSwitch
+                            Name="ToggleSwitch_DisableWaterfall"
+                            IsChecked="{Binding Path=AppConfigurationSettings.RandomlyChooseSetting_DisableWaterfall}"
+                            OffContent=""
+                            OnContent=""
+                        />
+
+                        <CheckBox
+                            Name="CheckBox_DisableWaterfall"
+                            Content="Disable Waterfall"
+                            IsEnabled="{Binding !#ToggleSwitch_DisableDelayScrolling.IsChecked}"
+                            IsChecked="{Binding Path=AppConfigurationSettings.DisableWaterfall}"
                         />
                     </StackPanel>
                 </StackPanel>

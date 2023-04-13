@@ -95,6 +95,7 @@ namespace MM2Randomizer.Settings
                 QualityOfLifeOption = new
                 {
                     DisableDelayScrolling = this.QualityOfLifeOption.DisableDelayScrolling.NextValue(in_Seed),
+                    DisableWaterfall = this.QualityOfLifeOption.DisableWaterfall.NextValue(in_Seed),
                     DisableFlashingEffects = this.QualityOfLifeOption.DisableFlashingEffects.NextValue(in_Seed),
                     EnableUnderwaterLagReduction = this.QualityOfLifeOption.EnableUnderwaterLagReduction.NextValue(in_Seed),
                 },
