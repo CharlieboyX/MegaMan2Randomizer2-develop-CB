@@ -74,10 +74,26 @@ namespace RandomizerHost.Settings
             }
         }
 
-
         //
         // Flag Properties
         //
+        [UserScopedSetting]
+        [DefaultSettingValue("True")]
+        public Boolean CheckboxOn
+        {
+            get
+            {
+                return this.GetValueOrDefault(
+                    AppConfigurationSettings.CHECKBOXON_SETTING_NAME,
+                    AppConfigurationSettings.CHECKBOXON_DEFAULT_VALUE);
+            }
+
+            set
+            {
+                this[AppConfigurationSettings.CHECKBOXON_SETTING_NAME] = value;
+            }
+        }
+
 
         [UserScopedSetting]
         [DefaultSettingValue("False")]
@@ -1736,6 +1752,10 @@ namespace RandomizerHost.Settings
 
         private const String ROM_SOURCE_PATH_SETTING_NAME = @"RomSourcePath";
         private const String ROM_SOURCE_PATH_DEFAULT_VALUE = @"";
+
+        // Flag Property Constants
+        private const String CHECKBOXON_SETTING_NAME = @"CheckboxOn";
+        private const Boolean CHECKBOXON_DEFAULT_VALUE = true;
 
         // Flag Property Constants
         private const String CREATE_LOG_FILE_SETTING_NAME = @"CreateLogFile";

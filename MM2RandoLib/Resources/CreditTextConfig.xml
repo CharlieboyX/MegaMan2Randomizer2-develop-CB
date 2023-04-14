@@ -168,43 +168,23 @@
     </CreditText>
     <CreditText>
         <Enabled>true</Enabled>
-        <Value>AB</Value>
-        <Text>SQUIDMAN</Text>
+        <Value>A6</Value>
+        <Text>SQUIDMAN CHARLIEBOY</Text>
     </CreditText>
     <CreditText>
         <Enabled>true</Enabled>
-        <Value>ED</Value>
-        <Text>DAGIT</Text>
+        <Value>E7</Value>
+        <Text>DAGIT MADEWOKHERD</Text>
     </CreditText>
     <CreditText>
         <Enabled>true</Enabled>
-        <Value>2A</Value>
-        <Text>MADEWOKHERD</Text>
-    </CreditText>
-    <CreditText>
-	    <Enabled>true</Enabled>
-	    <Value>3C</Value>
-	    <Text>CHARLIEBOY</Text>
-    </CreditText>
-    <CreditText>
-	    <Enabled>true</Enabled>
-	    <Value>66</Value>
-	    <Text>PRODIGY</Text>
-    </CreditText>
-    <CreditText>
-	    <Enabled>true</Enabled>
-	    <Value>37</Value>
-	    <Text>LVCREED</Text>
-    </CreditText>
-    <CreditText>
-	    <Enabled>true</Enabled>
-	    <Value>64</Value>
-	    <Text>MEGAKYLE83</Text>
+        <Value>28</Value>
+        <Text>PRODIGY LVCREED</Text>
     </CreditText>
     <CreditText>
         <Enabled>true</Enabled>
-        <Value>61</Value>
-        <Text>`</Text>
+        <Value>6A</Value>
+        <Text>MEGAKYLE83</Text>
     </CreditText>
     <CreditText>
         <Enabled>true</Enabled>
@@ -227,90 +207,15 @@
         <Text>JUSTSOMEGUY13</Text>
     </CreditText>
     <CreditText>
-	    <Enabled>true</Enabled>
-	    <Value>65</Value>
-	    <Text>MEGAMAN ROMHACKS</Text>
-    </CreditText>
-    <CreditText>
-	    <Enabled>true</Enabled>
-	    <Value>23</Value>
-	    <Text>MM2R COMMUNITY</Text>
-    </CreditText>
-    <CreditText>
-	    <Enabled>true</Enabled>
-	    <Value>52</Value>
-	    <Text>SPEEDGAMING</Text>
-    </CreditText>
-    <CreditText>
-	    <Enabled>true</Enabled>
-	    <Value>45</Value>
-	    <Text>MEGAMAN ROMHACKS</Text>
-    </CreditText>
-    <CreditText>
-	    <Enabled>true</Enabled>
-	    <Value>51</Value>
-	    <Text>NO RESET SPEEDRUNS</Text>
-    </CreditText>
-    <CreditText>
-	    <Enabled>true</Enabled>
-	    <Value>59</Value>
-	    <Text>FFR COMMUNITY</Text>
+        <Enabled>true</Enabled>
+        <Value>A9</Value>
+        <Text>MM2R COMMUNITY</Text>
     </CreditText>
     <CreditText>
         <Enabled>true</Enabled>
         <Value>A1</Value>
         <Text>`</Text>
     </CreditText>
-    <CreditText>
-	    <Enabled>true</Enabled>
-	    <Value>41</Value>
-	    <Text>TOURNAMENT WINNERS</Text>
-    </CreditText>
-    <CreditText>
-	    <Enabled>true</Enabled>
-	    <Value>5E</Value>
-	    <Text>2018 - PRODIGY</Text>
-    </CreditText>
-    <CreditText>
-	    <Enabled>true</Enabled>
-	    <Value>5F</Value>
-	    <Text>2019 METALOW</Text>
-    </CreditText>
-    <CreditText>
-	    <Enabled>true</Enabled>
-	    <Value>60</Value>
-	    <Text>2020 PRODIGY</Text>
-    </CreditText>
-	<CreditText>
-		<Enabled>true</Enabled>
-		<Value>62</Value>
-		<Text>MINI CASUALTOM82</Text>
-	</CreditText>
-    <CreditText>
-	    <Enabled>true</Enabled>
-	    <Value>63</Value>
-	    <Text>2021 CHARLIEBOY</Text>
-    </CreditText>
-	<CreditText>
-		<Enabled>true</Enabled>
-		<Value>4F</Value>
-		<Text>2021NQ ARISPICI</Text>
-	</CreditText>
-    <CreditText>
-	    <Enabled>true</Enabled>
-	    <Value>4D</Value>
-	    <Text>2022 PRODIGY</Text>
-	</CreditText>
-	<CreditText>
-		<Enabled>true</Enabled>
-		<Value>A1</Value>
-		<Text>`</Text>
-	</CreditText>
-	<CreditText>
-		<Enabled>true</Enabled>
-		<Value>61</Value>
-		<Text>`</Text>
-	</CreditText>
     <CreditText>
         <Enabled>true</Enabled>
         <Value>8A</Value>
