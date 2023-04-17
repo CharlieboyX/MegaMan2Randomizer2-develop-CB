@@ -79,6 +79,23 @@ namespace RandomizerHost.Settings
         //
         [UserScopedSetting]
         [DefaultSettingValue("True")]
+        public Boolean SetTheme
+        {
+            get
+            {
+                return this.GetValueOrDefault(
+                    AppConfigurationSettings.SETTHEME_SETTING_NAME,
+                    AppConfigurationSettings.SETTHEME_DEFAULT_VALUE);
+            }
+
+            set
+            {
+                this[AppConfigurationSettings.SETTHEME_SETTING_NAME] = value;
+            }
+        }
+
+        [UserScopedSetting]
+        [DefaultSettingValue("True")]
         public Boolean CheckboxOn
         {
             get
@@ -145,41 +162,6 @@ namespace RandomizerHost.Settings
             set
             {
                 this[AppConfigurationSettings.RANDOMLY_CHOOSE_SETTING_DISABLE_DELAY_SCROLLING_SETTING_NAME] = value;
-            }
-        }
-
-               [UserScopedSetting]
-        [DefaultSettingValue("True")]
-        public Boolean DisableWaterfall
-        {
-            get
-            {
-                return this.GetValueOrDefault(
-                    AppConfigurationSettings.DISABLE_WATERFALL_SETTING_NAME,
-                    AppConfigurationSettings.DISABLE_WATERFALL_DEFAULT_VALUE);
-            }
-
-            set
-            {
-                this[AppConfigurationSettings.DISABLE_WATERFALL_SETTING_NAME] = value;
-            }
-        }
-
-
-        [UserScopedSetting]
-        [DefaultSettingValue("False")]
-        public Boolean RandomlyChooseSetting_DisableWaterfall
-        {
-            get
-            {
-                return this.GetValueOrDefault(
-                    AppConfigurationSettings.RANDOMLY_CHOOSE_SETTING_DISABLE_WATERFALL_SETTING_NAME,
-                    AppConfigurationSettings.RANDOMLY_CHOOSE_SETTING_DISABLE_WATERFALL_DEFAULT_VALUE);
-            }
-
-            set
-            {
-                this[AppConfigurationSettings.RANDOMLY_CHOOSE_SETTING_DISABLE_WATERFALL_SETTING_NAME] = value;
             }
         }
 
@@ -1023,6 +1005,40 @@ namespace RandomizerHost.Settings
             }
         }
 
+        [UserScopedSetting]
+        [DefaultSettingValue("True")]
+        public Boolean DisableWaterfall
+        {
+            get
+            {
+                return this.GetValueOrDefault(
+                    AppConfigurationSettings.DISABLE_WATERFALL_SETTING_NAME,
+                    AppConfigurationSettings.DISABLE_WATERFALL_DEFAULT_VALUE);
+            }
+
+            set
+            {
+                this[AppConfigurationSettings.DISABLE_WATERFALL_SETTING_NAME] = value;
+            }
+        }
+
+
+        [UserScopedSetting]
+        [DefaultSettingValue("False")]
+        public Boolean RandomlyChooseSetting_DisableWaterfall
+        {
+            get
+            {
+                return this.GetValueOrDefault(
+                    AppConfigurationSettings.RANDOMLY_CHOOSE_SETTING_DISABLE_WATERFALL_SETTING_NAME,
+                    AppConfigurationSettings.RANDOMLY_CHOOSE_SETTING_DISABLE_WATERFALL_DEFAULT_VALUE);
+            }
+
+            set
+            {
+                this[AppConfigurationSettings.RANDOMLY_CHOOSE_SETTING_DISABLE_WATERFALL_SETTING_NAME] = value;
+            }
+        }
 
         //
         // Scalar Properties
@@ -1529,8 +1545,8 @@ namespace RandomizerHost.Settings
             // Quality of life options
             settings.QualityOfLifeOption.DisableDelayScrolling.Randomize = this.RandomlyChooseSetting_DisableDelayScrolling;
             settings.QualityOfLifeOption.DisableDelayScrolling.Value = (BooleanOption)Convert.ToInt32(this.DisableDelayScrolling);
-            settings.QualityOfLifeOption.DisableDelayScrolling.Randomize = this.RandomlyChooseSetting_DisableWaterfall;
-            settings.QualityOfLifeOption.DisableDelayScrolling.Value = (BooleanOption)Convert.ToInt32(this.DisableWaterfall);
+            settings.QualityOfLifeOption.DisableWaterfall.Randomize = this.RandomlyChooseSetting_DisableWaterfall;
+            settings.QualityOfLifeOption.DisableWaterfall.Value = (BooleanOption)Convert.ToInt32(this.DisableWaterfall);
             settings.QualityOfLifeOption.DisableFlashingEffects.Randomize = this.RandomlyChooseSetting_DisableFlashingEffects;
             settings.QualityOfLifeOption.DisableFlashingEffects.Value = (BooleanOption)Convert.ToInt32(this.DisableFlashingEffects);
             settings.QualityOfLifeOption.EnableUnderwaterLagReduction.Randomize = this.RandomlyChooseSetting_EnableUnderwaterLagReduction;
@@ -1754,6 +1770,9 @@ namespace RandomizerHost.Settings
         private const String ROM_SOURCE_PATH_DEFAULT_VALUE = @"";
 
         // Flag Property Constants
+        private const String SETTHEME_SETTING_NAME = @"SetTheme";
+        private const Boolean SETTHEME_DEFAULT_VALUE = true;
+
         private const String CHECKBOXON_SETTING_NAME = @"CheckboxOn";
         private const Boolean CHECKBOXON_DEFAULT_VALUE = true;
 

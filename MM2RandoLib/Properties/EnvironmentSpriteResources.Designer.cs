@@ -586,7 +586,7 @@ namespace MM2Randomizer.Properties {
         /// </summary>
         internal static byte[] StageTile_AirMan_Goblin_CutmanBadScissorsDay {
             get {
-                object obj = ResourceManager.GetObject("StageTile_AirMan_Block_Clear", resourceCulture);
+                object obj = ResourceManager.GetObject("StageTile_AirMan_Goblin_CutmanBadScissorsDay", resourceCulture);
                 return ((byte[])(obj));
             }
         }

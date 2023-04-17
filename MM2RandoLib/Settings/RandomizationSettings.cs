@@ -189,6 +189,8 @@ namespace MM2Randomizer.Settings
             // Quality of life options
             flags.PushValue(this.QualityOfLifeOption.DisableDelayScrolling.Randomize);
             flags.PushValue(this.QualityOfLifeOption.DisableDelayScrolling.Value);
+            flags.PushValue(this.QualityOfLifeOption.DisableWaterfall.Randomize);
+            flags.PushValue(this.QualityOfLifeOption.DisableWaterfall.Value);
             flags.PushValue(this.QualityOfLifeOption.DisableFlashingEffects.Randomize);
             flags.PushValue(this.QualityOfLifeOption.DisableFlashingEffects.Value);
             flags.PushValue(this.QualityOfLifeOption.EnableUnderwaterLagReduction.Randomize);
