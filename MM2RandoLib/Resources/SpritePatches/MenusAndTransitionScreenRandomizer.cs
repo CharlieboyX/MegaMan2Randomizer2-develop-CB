@@ -55,12 +55,6 @@ namespace MM2Randomizer.Resources.SpritePatches
             Properties.MenusAndTransitionScreenRandomizer.StageSelectScreen_Ultra,
         };
 
-        private static readonly List<Byte[]?> MENUS_AND_TRANSITION_SCREENS_SPRITE_LIST_TITLE_SCREEN = new List<Byte[]?>()
-        {
-            null,
-            Properties.MenusAndTransitionScreenRandomizer.TitleScreen_FinalFantasy,
-        };
-
         private static readonly List<Byte[]?> MENUS_AND_TRANSITION_SCREENS_SPRITE_LIST_WEAPON_GET_SCREEN = new List<Byte[]?>()
         {
             null,
@@ -95,7 +89,6 @@ namespace MM2Randomizer.Resources.SpritePatches
             MENUS_AND_TRANSITION_SCREENS_SPRITE_LIST_CASTLE,
             MENUS_AND_TRANSITION_SCREENS_SPRITE_LIST_ROBOT_MASTER_INTRO_SCREEN,
             MENUS_AND_TRANSITION_SCREENS_SPRITE_LIST_STAGE_SELECT_SCREEN,
-            MENUS_AND_TRANSITION_SCREENS_SPRITE_LIST_TITLE_SCREEN,
             MENUS_AND_TRANSITION_SCREENS_SPRITE_LIST_WEAPON_GET_SCREEN,
             MENUS_AND_TRANSITION_SCREENS_SPRITE_LIST_WEAPON_MENU_BORDER,
         };
