@@ -199,10 +199,13 @@ namespace MM2Randomizer.Resources.SpritePatches
             Properties.BossSpriteResources.BossDoorSign_Mikey,
             Properties.BossSpriteResources.BossDoorSign_MortalKombat,
             Properties.BossSpriteResources.BossDoorSign_MrX,
+            Properties.BossSpriteResources.BossDoorSign_NoReset,
+            Properties.BossSpriteResources.BossDoorSign_NothinButSpeedruns,
             Properties.BossSpriteResources.BossDoorSign_PizzaHut,
             Properties.BossSpriteResources.BossDoorSign_Raph,
             Properties.BossSpriteResources.BossDoorSign_Shredder,
             Properties.BossSpriteResources.BossDoorSign_SiberianBull,
+            Properties.BossSpriteResources.BossDoorSign_SpeedGaming,
             Properties.BossSpriteResources.BossDoorSign_Squidman,
             Properties.BossSpriteResources.BossDoorSign_WWF,
         };

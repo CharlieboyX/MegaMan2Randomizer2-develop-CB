@@ -1487,6 +1487,7 @@ namespace RandomizerHost.Settings
 
             settings.CreateLogFile = this.CreateLogFile;
             settings.EnableSpoilerFreeMode = this.EnableSpoilerFreeMode;
+            settings.SetTheme = this.SetTheme;
 
             // Gameplay options
             settings.GameplayOption.BurstChaserMode.Randomize = this.RandomlyChooseSetting_EnableBurstChaserMode;

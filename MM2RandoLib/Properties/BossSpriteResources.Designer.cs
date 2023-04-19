@@ -389,7 +389,27 @@ namespace MM2Randomizer.Properties {
                 return ((byte[])(obj));
             }
         }
-        
+
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] BossDoorSign_NoReset {
+            get {
+                object obj = ResourceManager.GetObject("BossDoorSign_NoReset", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] BossDoorSign_NothinButSpeedruns {
+            get {
+                object obj = ResourceManager.GetObject("BossDoorSign_NothinButSpeedruns", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
@@ -429,7 +449,17 @@ namespace MM2Randomizer.Properties {
                 return ((byte[])(obj));
             }
         }
-        
+
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] BossDoorSign_SpeedGaming {
+            get {
+                object obj = ResourceManager.GetObject("BossDoorSign_SpeedGaming", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
