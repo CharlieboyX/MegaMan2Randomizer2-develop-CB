@@ -349,11 +349,6 @@ namespace MM2Randomizer
                 MiscHacks.DisableDelayScroll(this.Patch);
             }
 
-            if (BooleanOption.True == this.ActualizedBehaviorSettings.QualityOfLifeOption.DisableWaterfall)
-            {
-                MiscHacks.DisableWaterfall(this.Patch,
-                 BooleanOption.True == this.ActualizedBehaviorSettings.QualityOfLifeOption.DisableWaterfall);
-            }
 
             // Apply pre-patch changes via IPS patch (manual title screen, stage select, stage changes, player sprite)
             this.Patch.ApplyIPSPatch(RandomizationContext.TEMPORARY_FILE_NAME, Properties.Resources.mm2rng_musicpatch);
