@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
+using System.Reflection.Metadata.Ecma335;
+using System.Security.Cryptography.X509Certificates;
 using MM2Randomizer.Patcher;
 using MM2Randomizer.Random;
 using MM2Randomizer.Randomizers;
@@ -388,7 +390,6 @@ namespace MM2Randomizer
             // Finish the copy/rename and open Explorer at that location
             File.Move(RandomizationContext.TEMPORARY_FILE_NAME, this.FileName);
         }
-
 
         //
         // Private Data Members
