@@ -12,6 +12,8 @@ namespace MM2Randomizer
         Bass,
         [Description("Bass Reloaded")]
         BassReloaded,
+        [Description("Batman")]
+        BatMan,
         [Description("Break Man")]
         BreakMan,
         [Description("Byte (Blue)")]

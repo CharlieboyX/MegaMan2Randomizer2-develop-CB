@@ -26,6 +26,7 @@
     <None Remove="Assets\MegaMan2Randomizer.ico" />
     <None Remove="Assets\PlayerCharacterSpritePreviews\PlayerCharacter_AVGN.png" />
     <None Remove="Assets\PlayerCharacterSpritePreviews\PlayerCharacter_BassReloaded.png" />
+	<None Remove="Assets\PlayerCharacterSpritePreviews\PlayerCharacter_BatMan.png" />
     <None Remove="Assets\PlayerCharacterSpritePreviews\PlayerCharacter_BreakMan.png" />
     <None Remove="Assets\PlayerCharacterSpritePreviews\PlayerCharacter_CasualTom.png" />
     <None Remove="Assets\PlayerCharacterSpritePreviews\PlayerCharacter_Charlieboy.png" />
