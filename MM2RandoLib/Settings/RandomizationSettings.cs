@@ -96,7 +96,6 @@ namespace MM2Randomizer.Settings
                 },
                 QualityOfLifeOption = new
                 {
-                    DisableDelayScrolling = this.QualityOfLifeOption.DisableDelayScrolling.NextValue(in_Seed),
                     DisableWaterfall = this.QualityOfLifeOption.DisableWaterfall.NextValue(in_Seed),
                     DisableFlashingEffects = this.QualityOfLifeOption.DisableFlashingEffects.NextValue(in_Seed),
                     EnableUnderwaterLagReduction = this.QualityOfLifeOption.EnableUnderwaterLagReduction.NextValue(in_Seed),
@@ -189,8 +188,6 @@ namespace MM2Randomizer.Settings
             flags.PushValue(this.SpriteOption.RandomizeSpecialWeaponSprites.Value);
 
             // Quality of life options
-            flags.PushValue(this.QualityOfLifeOption.DisableDelayScrolling.Randomize);
-            flags.PushValue(this.QualityOfLifeOption.DisableDelayScrolling.Value);
             flags.PushValue(this.QualityOfLifeOption.DisableWaterfall.Randomize);
             flags.PushValue(this.QualityOfLifeOption.DisableWaterfall.Value);
             flags.PushValue(this.QualityOfLifeOption.DisableFlashingEffects.Randomize);

@@ -130,41 +130,6 @@ namespace RandomizerHost.Settings
         }
 
 
-        [UserScopedSetting]
-        [DefaultSettingValue("True")]
-        public Boolean DisableDelayScrolling
-        {
-            get
-            {
-                return this.GetValueOrDefault(
-                    AppConfigurationSettings.DISABLE_DELAY_SCROLLING_SETTING_NAME,
-                    AppConfigurationSettings.DISABLE_DELAY_SCROLLING_DEFAULT_VALUE);
-            }
-
-            set
-            {
-                this[AppConfigurationSettings.DISABLE_DELAY_SCROLLING_SETTING_NAME] = value;
-            }
-        }
-
-
-        [UserScopedSetting]
-        [DefaultSettingValue("False")]
-        public Boolean RandomlyChooseSetting_DisableDelayScrolling
-        {
-            get
-            {
-                return this.GetValueOrDefault(
-                    AppConfigurationSettings.RANDOMLY_CHOOSE_SETTING_DISABLE_DELAY_SCROLLING_SETTING_NAME,
-                    AppConfigurationSettings.RANDOMLY_CHOOSE_SETTING_DISABLE_DELAY_SCROLLING_DEFAULT_VALUE);
-            }
-
-            set
-            {
-                this[AppConfigurationSettings.RANDOMLY_CHOOSE_SETTING_DISABLE_DELAY_SCROLLING_SETTING_NAME] = value;
-            }
-        }
-
 
         [UserScopedSetting]
         [DefaultSettingValue("True")]
@@ -1544,8 +1509,6 @@ namespace RandomizerHost.Settings
             settings.SpriteOption.RandomizeSpecialWeaponSprites.Value = (BooleanOption)Convert.ToInt32(this.EnableRandomizationOfSpecialWeaponSprites);
 
             // Quality of life options
-            settings.QualityOfLifeOption.DisableDelayScrolling.Randomize = this.RandomlyChooseSetting_DisableDelayScrolling;
-            settings.QualityOfLifeOption.DisableDelayScrolling.Value = (BooleanOption)Convert.ToInt32(this.DisableDelayScrolling);
             settings.QualityOfLifeOption.DisableWaterfall.Randomize = this.RandomlyChooseSetting_DisableWaterfall;
             settings.QualityOfLifeOption.DisableWaterfall.Value = (BooleanOption)Convert.ToInt32(this.DisableWaterfall);
             settings.QualityOfLifeOption.DisableFlashingEffects.Randomize = this.RandomlyChooseSetting_DisableFlashingEffects;
@@ -1780,13 +1743,6 @@ namespace RandomizerHost.Settings
         // Flag Property Constants
         private const String CREATE_LOG_FILE_SETTING_NAME = @"CreateLogFile";
         private const Boolean CREATE_LOG_FILE_DEFAULT_VALUE = false;
-
-        // Disable Delay Scrolling
-        private const String DISABLE_DELAY_SCROLLING_SETTING_NAME = @"DisableDelayScrolling";
-        private const Boolean DISABLE_DELAY_SCROLLING_DEFAULT_VALUE = true;
-
-        private const String RANDOMLY_CHOOSE_SETTING_DISABLE_DELAY_SCROLLING_SETTING_NAME = @"RandomlyChooseSetting_DisableDelayScrolling";
-        private const Boolean RANDOMLY_CHOOSE_SETTING_DISABLE_DELAY_SCROLLING_DEFAULT_VALUE = false;
 
         // Disable Waterfall
         private const String DISABLE_WATERFALL_SETTING_NAME = @"DisableWaterfall";
