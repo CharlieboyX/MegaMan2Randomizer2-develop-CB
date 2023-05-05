@@ -203,16 +203,6 @@ namespace MM2Randomizer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static byte[] TitleScreen_FinalFantasy {
-            get {
-                object obj = ResourceManager.GetObject("TitleScreen_FinalFantasy", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
         internal static byte[] WeaponGetScreen_Claw {
             get {
                 object obj = ResourceManager.GetObject("WeaponGetScreen_Claw", resourceCulture);
