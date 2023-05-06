@@ -255,6 +255,7 @@ namespace MM2Randomizer.Resources.SpritePatches
             null,
             Properties.EnvironmentSpriteResources.StageTile_Wily2_Animated_CutmansBadScissorsDay,
             Properties.EnvironmentSpriteResources.StageTile_Wily2_Animated_CutmansBadScissorsDay2,
+            Properties.EnvironmentSpriteResources.StageTile_Wily2_Animated_WilyTV,
         };
 
         private static readonly List<Byte[]?> ENVIRONMENT_SPRITE_LIST_STAGE_TILE_WILY2_4_FLOOR = new List<Byte[]?>()
@@ -281,7 +282,14 @@ namespace MM2Randomizer.Resources.SpritePatches
         private static readonly List<Byte[]?> ENVIRONMENT_SPRITE_LIST_STAGE_TILE_WILY5_TELEPORTER = new List<Byte[]?>()
         {
             null,
+            Properties.EnvironmentSpriteResources.StageTile_Wily5_Teleporter_MegaMan1,
+            Properties.EnvironmentSpriteResources.StageTile_Wily5_Teleporter_MegaMan1_2,
+            Properties.EnvironmentSpriteResources.StageTile_Wily5_Teleporter_MegaMan1_3,
             Properties.EnvironmentSpriteResources.StageTile_Wily5_Teleporter_MegaMan3,
+            Properties.EnvironmentSpriteResources.StageTile_Wily5_Teleporter_MegaMan4,
+            Properties.EnvironmentSpriteResources.StageTile_Wily5_Teleporter_MegaMan4_2,
+            Properties.EnvironmentSpriteResources.StageTile_Wily5_Teleporter_MegaMan5,
+            Properties.EnvironmentSpriteResources.StageTile_Wily5_Teleporter_MegaMan6,
         };
 
         private static readonly List<Byte[]?> ENVIRONMENT_SPRITE_LIST_STAGE_TILE_WOOD_MAN_BLOCK = new List<Byte[]?>()

@@ -1064,6 +1064,16 @@ namespace MM2Randomizer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
+        internal static byte[] StageTile_Wily2_Animated_WilyTV {
+            get {
+                object obj = ResourceManager.GetObject("StageTile_Wily2_Animated_WilyTV", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
         internal static byte[] StageTile_Wily2_4_Floor_Waffle {
             get {
                 object obj = ResourceManager.GetObject("StageTile_Wily2_4_Floor_Waffle", resourceCulture);
@@ -1126,12 +1136,85 @@ namespace MM2Randomizer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
+        internal static byte[] StageTile_Wily5_Teleporter_MegaMan1 {
+            get {
+                object obj = ResourceManager.GetObject("StageTile_Wily5_Teleporter_MegaMan1", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] StageTile_Wily5_Teleporter_MegaMan1_2 {
+            get {
+                object obj = ResourceManager.GetObject("StageTile_Wily5_Teleporter_MegaMan1_2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] StageTile_Wily5_Teleporter_MegaMan1_3 {
+            get {
+                object obj = ResourceManager.GetObject("StageTile_Wily5_Teleporter_MegaMan1_3", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+
+
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
         internal static byte[] StageTile_Wily5_Teleporter_MegaMan3 {
             get {
                 object obj = ResourceManager.GetObject("StageTile_Wily5_Teleporter_MegaMan3", resourceCulture);
                 return ((byte[])(obj));
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] StageTile_Wily5_Teleporter_MegaMan4 {
+            get {
+                object obj = ResourceManager.GetObject("StageTile_Wily5_Teleporter_MegaMan4", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] StageTile_Wily5_Teleporter_MegaMan4_2 {
+            get {
+                object obj = ResourceManager.GetObject("StageTile_Wily5_Teleporter_MegaMan4_2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] StageTile_Wily5_Teleporter_MegaMan5 {
+            get {
+                object obj = ResourceManager.GetObject("StageTile_Wily5_Teleporter_MegaMan5", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] StageTile_Wily5_Teleporter_MegaMan6 {
+            get {
+                object obj = ResourceManager.GetObject("StageTile_Wily5_Teleporter_MegaMan6", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+
+
 
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
