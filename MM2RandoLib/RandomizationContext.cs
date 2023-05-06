@@ -346,6 +346,11 @@ namespace MM2Randomizer
                 MiscHacks.ReduceUnderwaterLag(this.Patch);
             }
 
+            if (BooleanOption.True == this.ActualizedBehaviorSettings.QualityOfLifeOption.DisableWaterfall)
+            {
+                this.Patch.ApplyIPSPatch(RandomizationContext.TEMPORARY_FILE_NAME, Properties.EnvironmentSpriteResources.StageTile_BubbleMan_Waterfall_None);
+            }
+
 
 
             // Apply pre-patch changes via IPS patch (manual title screen, stage select, stage changes, player sprite)
