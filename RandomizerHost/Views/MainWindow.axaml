@@ -180,14 +180,14 @@
 		<ToggleSwitch
 									Name="ToggleSwitch_SetTheme"
 									IsChecked="{Binding Path=AppConfigurationSettings.Set_Theme}"
-									OffContent=""
-									OnContent=""
+									OffContent="🔅"
+									OnContent="🌑"
                         />
 		<TextBlock
-                Text="🔅/🌑"
+                Text="Set Theme"
                 DockPanel.Dock="Left"
                 VerticalAlignment="Center"
-				Margin="45,0,0,0"
+				Margin="75,0,0,0"
             />
         <!-- Seed textbox -->
         <DockPanel
